@@ -1,0 +1,4 @@
+- npm init para criar projetos node; 
+- npm init -y para criar projetos node sem perguntas;
+- node [arquivo.js] para rodar arquivos Javascript com node;
+- node –watch [arquivo.js] para rodar arquivos Javascript com node em modo vigia;

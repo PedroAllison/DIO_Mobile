@@ -1,0 +1,3 @@
+console.log("opapapaa")
+//node --watch
+//MONITORA O ARQUIVO, CASO TENHA ALTERAÇÃO ELE ATUALIZA E TE MOSTRA AS EDIÇOES
