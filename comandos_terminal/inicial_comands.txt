@@ -2,3 +2,5 @@
 - npm init -y para criar projetos node sem perguntas;
 - node [arquivo.js] para rodar arquivos Javascript com node;
 - node –watch [arquivo.js] para rodar arquivos Javascript com node em modo vigia;
+- mkdir - criar pasta 
+- echo > nome_arquivo.js - cria arquivo 
