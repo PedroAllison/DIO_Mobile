@@ -1,0 +1,24 @@
+{
+  "name": "08-npm-scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "MyScript": "echo \"opaaaa\" && exit 1",
+    "iniciar": "node src/index.js",
+    "mkdir": "mkdir dist && echo \"past dist criada",
+    "prebuild": "npm install",
+    "start:dev": "node src/index.js",
+    "start:watch": "node --watch src/index.js",
+    "git:init":"git init",
+    "git:add":"git add.",
+    "git:branch":"git branch",
+    "git:remote":"git remote",
+    "git:commit":"git commit -m",
+    "git:push":"git push -u origin main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type":"module"
+}
