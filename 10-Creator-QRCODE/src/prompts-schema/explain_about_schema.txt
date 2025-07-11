@@ -1,0 +1,4 @@
+- ANTES DA RESTRUTURAÇÃO DO CODIGO 
+ERA: prompt-main.js & prompt-qrcode.js
+
+- FOI REALIZADO A SUBSTITUIÇÃO PARA FACILITAR COM A DOCUMENTAÇÃO DO PROMPT : https://www.npmjs.com/package/prompt
