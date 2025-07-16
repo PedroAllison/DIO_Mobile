@@ -1,0 +1,35 @@
+
+**COMANDOS TERMINAL**
+
+mkdir nome_pasta
+cd nome_pasta
+npm init -y
+mkdir src
+'console.log("Hello World Arczin")' > src/index.ts
+npm i typescript tsx tsup -D
+
+--------------------------------------------------------------------------------------------------------
+
+**TSCONFIG SIMPLES E EFETIVO**
+
+{
+  "compilerOptions": {
+    "target": "es6", 
+    "module": "commonjs", 
+    "outDir": "./dist", 
+    "strict": true , 
+    "esModuleInterop": true,
+  }
+}
+--------------------------------------------------------------------------------------------------------
+
+**PACKAGE.JSON C/ SCRIPTS**
+
+"scripts": {
+    "dist": "tsup src",
+    "start:dev": "tsx src/index.ts",
+    "start:watch": "tsx watch src/index.ts",
+    "start:dist": "npm run dist && node src/index.js"
+}
+--------------------------------------------------------------------------------------------------------
+
