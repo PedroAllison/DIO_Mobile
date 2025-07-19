@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es6", //VERSÃO DO TEU JS, NO CASO ECMASCRPIT
+    "module": "commonjs", //É BOM PARA AUMENTAR A COMPATIBILIDADE COM COISAS MAIS ANTIGAS
+    "outDir": "./dist", //ONDE VAI SER COLOCADO TODOS OS ARQUIVOS JS
+    "strict": true , //FAZ AS VERIFICAÇOES DAS VARIAVEIS
+    "esModuleInterop": true, //AJUDA COMO SUPORTE DE IMPORTAÇÃO DO COMMONJS
+  }
+}
